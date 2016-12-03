@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E5EDFA4-B23B-4FF7-9853-48000DE45C3E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Plot_Gallery_iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62271E69-E5E4-4D94-B7EC-C3CEFD5EBC32</key>
+		<string>https://github.com/core-plot/core-plot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>examples/CorePlotGallery/Plot_Gallery_iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62271E69-E5E4-4D94-B7EC-C3CEFD5EBC32</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/core-plot/core-plot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>62271E69-E5E4-4D94-B7EC-C3CEFD5EBC32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62271E69-E5E4-4D94-B7EC-C3CEFD5EBC32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Core Plot</string>
+		</dict>
+	</array>
+</dict>
+</plist>

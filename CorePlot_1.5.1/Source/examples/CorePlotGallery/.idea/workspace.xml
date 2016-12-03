@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78f06b6a-46a0-4856-819c-5d5bc5b1262b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CorePlot.podspec" afterPath="$PROJECT_DIR$/../../CorePlot.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../documentation/changelog.markdown" afterPath="$PROJECT_DIR$/../../documentation/changelog.markdown" />
+    </list>
+    <ignored path="CorePlotGallery.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="Plot_Gallery_iOS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CPTGraphHostingView.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.20809793" vertical-offset="0" max-vertical-offset="1062">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPTGraphHostingView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="0" selection-start="3977" selection-end="3977" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="5148">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m" />
+        <option value="$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="171" />
+    <option name="y" value="37" />
+    <option name="width" value="1546" />
+    <option name="height" value="1159" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plot_Gallery_iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plot_Gallery_iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CorePlot-CocoaTouch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plot_Gallery_iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CorePlot-CocoaTouch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iPhone Specific" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Plot Gallery-iOS">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Plot_Gallery_iOS" TARGET_NAME="Plot Gallery-iOS" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Plot_Gallery_iOS" RUN_TARGET_NAME="Plot Gallery-iOS" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Plot Gallery-iOS" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Plot Gallery-iOS" PROJECT_NAME="Plot_Gallery_iOS" TARGET_NAME="Plot Gallery-iOS" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Plot_Gallery_iOS" RUN_TARGET_NAME="Plot Gallery-iOS" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CorePlot-CocoaTouch" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CorePlot-CocoaTouch" PROJECT_NAME="CorePlot-CocoaTouch" TARGET_NAME="CorePlot-CocoaTouch" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Documentation" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Documentation" PROJECT_NAME="CorePlot-CocoaTouch" TARGET_NAME="Documentation" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Universal Library" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Universal Library" PROJECT_NAME="CorePlot-CocoaTouch" TARGET_NAME="Universal Library" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Plot Gallery-iOS" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CorePlot-CocoaTouch" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Documentation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Universal Library" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78f06b6a-46a0-4856-819c-5d5bc5b1262b" name="Default" comment="" />
+      <created>1388698311082</created>
+      <updated>1388698311082</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="171" y="37" width="1546" height="1159" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22639069" sideWeight="0.6587156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3412844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="3977" selection-end="3977" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="3977" selection-end="3977" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="5148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="4862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../framework/Source/CPTLayerTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="665" selection-end="665" vertical-scroll-proportion="0.33333334" vertical-offset="108" max-vertical-offset="2106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mac/PlotView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.22608696" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plots/CompositePlot.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="18" selection-start="10480" selection-end="10480" vertical-scroll-proportion="0.03768116" vertical-offset="3120" max-vertical-offset="6656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="3977" selection-end="3977" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="5148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../framework/iPhoneOnly/CPTGraphHostingView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.20809793" vertical-offset="0" max-vertical-offset="1062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

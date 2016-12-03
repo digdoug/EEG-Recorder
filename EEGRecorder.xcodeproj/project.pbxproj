@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2E1C9E192DA2DC0071E11B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E1C9D192DA2DC0071E11B /* Images.xcassets */; };
+		3A2E1CB8192DB1A30071E11B /* TIBLEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E1CB2192DB1A30071E11B /* TIBLEAppDelegate.m */; };
+		3A2E1CB9192DB1A30071E11B /* TIBLECBKeyfob.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E1CB4192DB1A30071E11B /* TIBLECBKeyfob.m */; };
+		3A2E1CBA192DB1A30071E11B /* TIBLEViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E1CB7192DB1A30071E11B /* TIBLEViewController.mm */; };
+		3A2E1CBF192DB1DA0071E11B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E1CBB192DB1DA0071E11B /* MainStoryboard_iPad.storyboard */; };
+		3A2E1CC0192DB1DA0071E11B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E1CBD192DB1DA0071E11B /* MainStoryboard_iPhone.storyboard */; };
+		3A34EDC6196E4F8100743CAA /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A34EDC4196E4F8100743CAA /* empty.cpp */; };
+		3A34EDC8196E571E00743CAA /* libchilkatIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A34EDC7196E571E00743CAA /* libchilkatIos.a */; };
+		3A92A646198ABD7700F93AF5 /* sftpConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A92A645198ABD7700F93AF5 /* sftpConnect.m */; };
+		3AC00ADF1973792700CA9233 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC00ADE1973792700CA9233 /* Accelerate.framework */; };
+		3AFA086D1971D825007410DD /* EEGPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA086C1971D825007410DD /* EEGPlotViewController.m */; };
+		3AFA088E1972472A007410DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA088D1972472A007410DD /* QuartzCore.framework */; };
+		3AFA08A119724FD9007410DD /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA089E19724F47007410DD /* libCorePlot-CocoaTouch.a */; };
+		86184ED31B45F93B00927F1F /* globalVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA865BE199EB8E40005A154 /* globalVar.m */; };
+		8618EE451B6016FF00D66660 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618EE441B6016FF00D66660 /* SetViewController.m */; };
+		865E50F31B6D64BA00E828B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E50F21B6D64BA00E828B9 /* main.m */; };
+		86ED79DF1B5F5593007425FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ED79DE1B5F5593007425FF /* SystemConfiguration.framework */; };
+		86ED79E41B5F579C007425FF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED79E31B5F579C007425FF /* Reachability.m */; };
+		FA1A803F1614559D0070D0E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1A803E1614559D0070D0E9 /* UIKit.framework */; };
+		FA1A80411614559D0070D0E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1A80401614559D0070D0E9 /* Foundation.framework */; };
+		FA1A80431614559D0070D0E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1A80421614559D0070D0E9 /* CoreGraphics.framework */; };
+		FA398E431614567000711931 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA398E421614567000711931 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFA089D19724F47007410DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFA089719724F47007410DD /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		3AFA089F19724F9D007410DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFA089719724F47007410DD /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A2E1C9D192DA2DC0071E11B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EEGRecorder/Images.xcassets; sourceTree = "<group>"; };
+		3A2E1CB1192DB1A30071E11B /* TIBLEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIBLEAppDelegate.h; path = EEGRecorder/TIBLEAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3A2E1CB2192DB1A30071E11B /* TIBLEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIBLEAppDelegate.m; path = EEGRecorder/TIBLEAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3A2E1CB3192DB1A30071E11B /* TIBLECBKeyfob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIBLECBKeyfob.h; path = EEGRecorder/TIBLECBKeyfob.h; sourceTree = SOURCE_ROOT; };
+		3A2E1CB4192DB1A30071E11B /* TIBLECBKeyfob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIBLECBKeyfob.m; path = EEGRecorder/TIBLECBKeyfob.m; sourceTree = SOURCE_ROOT; };
+		3A2E1CB5192DB1A30071E11B /* TIBLECBKeyfobDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIBLECBKeyfobDefines.h; path = EEGRecorder/TIBLECBKeyfobDefines.h; sourceTree = SOURCE_ROOT; };
+		3A2E1CB6192DB1A30071E11B /* TIBLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIBLEViewController.h; path = EEGRecorder/TIBLEViewController.h; sourceTree = SOURCE_ROOT; };
+		3A2E1CB7192DB1A30071E11B /* TIBLEViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TIBLEViewController.mm; path = EEGRecorder/TIBLEViewController.mm; sourceTree = SOURCE_ROOT; };
+		3A2E1CBC192DB1DA0071E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = EEGRecorder/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		3A2E1CBE192DB1DA0071E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = EEGRecorder/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		3A34EDC4196E4F8100743CAA /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
+		3A34EDC7196E571E00743CAA /* libchilkatIos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchilkatIos.a; path = "Chilkat-9.5.2.0-IOS/lib/armv7/libchilkatIos.a"; sourceTree = "<group>"; };
+		3A92A644198ABD7700F93AF5 /* sftpConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sftpConnect.h; path = EEGRecorder/sftpConnect.h; sourceTree = SOURCE_ROOT; };
+		3A92A645198ABD7700F93AF5 /* sftpConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sftpConnect.m; path = EEGRecorder/sftpConnect.m; sourceTree = SOURCE_ROOT; };
+		3AA865BD199EB8E40005A154 /* globalVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globalVar.h; path = EEGRecorder/globalVar.h; sourceTree = SOURCE_ROOT; };
+		3AA865BE199EB8E40005A154 /* globalVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = globalVar.m; path = EEGRecorder/globalVar.m; sourceTree = SOURCE_ROOT; };
+		3AC00ADE1973792700CA9233 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3AFA086B1971D825007410DD /* EEGPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EEGPlotViewController.h; path = EEGRecorder/EEGPlotViewController.h; sourceTree = SOURCE_ROOT; };
+		3AFA086C1971D825007410DD /* EEGPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EEGPlotViewController.m; path = EEGRecorder/EEGPlotViewController.m; sourceTree = SOURCE_ROOT; };
+		3AFA088D1972472A007410DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3AFA089719724F47007410DD /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "CorePlot_1.5.1/Source/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		8618EE431B6016FF00D66660 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetViewController.h; path = EEGRecorder/SetViewController.h; sourceTree = SOURCE_ROOT; };
+		8618EE441B6016FF00D66660 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetViewController.m; path = EEGRecorder/SetViewController.m; sourceTree = SOURCE_ROOT; };
+		865E50F21B6D64BA00E828B9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EEGRecorder/main.m; sourceTree = SOURCE_ROOT; };
+		86ED79DE1B5F5593007425FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		86ED79E21B5F579C007425FF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = EEGRecorder.xcodeproj/Reachability.h; sourceTree = SOURCE_ROOT; };
+		86ED79E31B5F579C007425FF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = EEGRecorder.xcodeproj/Reachability.m; sourceTree = SOURCE_ROOT; };
+		FA1A803A1614559D0070D0E9 /* EEGRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEGRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1A803E1614559D0070D0E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA1A80401614559D0070D0E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA1A80421614559D0070D0E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA398E421614567000711931 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1A80371614559D0070D0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86ED79DF1B5F5593007425FF /* SystemConfiguration.framework in Frameworks */,
+				3AFA08A119724FD9007410DD /* libCorePlot-CocoaTouch.a in Frameworks */,
+				3A34EDC8196E571E00743CAA /* libchilkatIos.a in Frameworks */,
+				3AC00ADF1973792700CA9233 /* Accelerate.framework in Frameworks */,
+				3AFA088E1972472A007410DD /* QuartzCore.framework in Frameworks */,
+				FA398E431614567000711931 /* CoreBluetooth.framework in Frameworks */,
+				FA1A803F1614559D0070D0E9 /* UIKit.framework in Frameworks */,
+				FA1A80411614559D0070D0E9 /* Foundation.framework in Frameworks */,
+				FA1A80431614559D0070D0E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFA089819724F47007410DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFA089E19724F47007410DD /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1A802F1614559D0070D0E9 = {
+			isa = PBXGroup;
+			children = (
+				3A34EDC4196E4F8100743CAA /* empty.cpp */,
+				3A2E1C9D192DA2DC0071E11B /* Images.xcassets */,
+				FA1A80441614559D0070D0E9 /* TIBLEKeyFob */,
+				FA1A803D1614559D0070D0E9 /* Frameworks */,
+				FA1A803B1614559D0070D0E9 /* Products */,
+				3AFA089719724F47007410DD /* CorePlot-CocoaTouch.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1A803B1614559D0070D0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1A803A1614559D0070D0E9 /* EEGRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1A803D1614559D0070D0E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86ED79DE1B5F5593007425FF /* SystemConfiguration.framework */,
+				3AC00ADE1973792700CA9233 /* Accelerate.framework */,
+				3A34EDC7196E571E00743CAA /* libchilkatIos.a */,
+				3AFA088D1972472A007410DD /* QuartzCore.framework */,
+				FA398E421614567000711931 /* CoreBluetooth.framework */,
+				FA1A80421614559D0070D0E9 /* CoreGraphics.framework */,
+				FA1A803E1614559D0070D0E9 /* UIKit.framework */,
+				FA1A80401614559D0070D0E9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1A80441614559D0070D0E9 /* TIBLEKeyFob */ = {
+			isa = PBXGroup;
+			children = (
+				3AA865BD199EB8E40005A154 /* globalVar.h */,
+				3AA865BE199EB8E40005A154 /* globalVar.m */,
+				3A2E1CB1192DB1A30071E11B /* TIBLEAppDelegate.h */,
+				3A2E1CB2192DB1A30071E11B /* TIBLEAppDelegate.m */,
+				3A2E1CB3192DB1A30071E11B /* TIBLECBKeyfob.h */,
+				3A2E1CB4192DB1A30071E11B /* TIBLECBKeyfob.m */,
+				3A2E1CB5192DB1A30071E11B /* TIBLECBKeyfobDefines.h */,
+				3A2E1CB6192DB1A30071E11B /* TIBLEViewController.h */,
+				3A2E1CB7192DB1A30071E11B /* TIBLEViewController.mm */,
+				3A92A644198ABD7700F93AF5 /* sftpConnect.h */,
+				3A92A645198ABD7700F93AF5 /* sftpConnect.m */,
+				3AFA086B1971D825007410DD /* EEGPlotViewController.h */,
+				3AFA086C1971D825007410DD /* EEGPlotViewController.m */,
+				3A2E1CBD192DB1DA0071E11B /* MainStoryboard_iPhone.storyboard */,
+				3A2E1CBB192DB1DA0071E11B /* MainStoryboard_iPad.storyboard */,
+				86ED79E21B5F579C007425FF /* Reachability.h */,
+				86ED79E31B5F579C007425FF /* Reachability.m */,
+				8618EE431B6016FF00D66660 /* SetViewController.h */,
+				8618EE441B6016FF00D66660 /* SetViewController.m */,
+				865E50F21B6D64BA00E828B9 /* main.m */,
+			);
+			name = TIBLEKeyFob;
+			path = blekeyfobdemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1A80391614559D0070D0E9 /* EEGRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1A805B1614559D0070D0E9 /* Build configuration list for PBXNativeTarget "EEGRecorder" */;
+			buildPhases = (
+				FA1A80361614559D0070D0E9 /* Sources */,
+				FA1A80371614559D0070D0E9 /* Frameworks */,
+				FA1A80381614559D0070D0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFA08A019724F9D007410DD /* PBXTargetDependency */,
+			);
+			name = EEGRecorder;
+			productName = blekeyfobdemo;
+			productReference = FA1A803A1614559D0070D0E9 /* EEGRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1A80311614559D0070D0E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TIBLE;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Massachusetts General Hospital";
+				TargetAttributes = {
+					FA1A80391614559D0070D0E9 = {
+						DevelopmentTeam = 988NBE5HS7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FA1A80341614559D0070D0E9 /* Build configuration list for PBXProject "EEGRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA1A802F1614559D0070D0E9;
+			productRefGroup = FA1A803B1614559D0070D0E9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3AFA089819724F47007410DD /* Products */;
+					ProjectRef = 3AFA089719724F47007410DD /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FA1A80391614559D0070D0E9 /* EEGRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3AFA089E19724F47007410DD /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = 3AFA089D19724F47007410DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1A80381614559D0070D0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2E1CC0192DB1DA0071E11B /* MainStoryboard_iPhone.storyboard in Resources */,
+				3A2E1CBF192DB1DA0071E11B /* MainStoryboard_iPad.storyboard in Resources */,
+				3A2E1C9E192DA2DC0071E11B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1A80361614559D0070D0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865E50F31B6D64BA00E828B9 /* main.m in Sources */,
+				86184ED31B45F93B00927F1F /* globalVar.m in Sources */,
+				3A34EDC6196E4F8100743CAA /* empty.cpp in Sources */,
+				3A2E1CB9192DB1A30071E11B /* TIBLECBKeyfob.m in Sources */,
+				8618EE451B6016FF00D66660 /* SetViewController.m in Sources */,
+				3A92A646198ABD7700F93AF5 /* sftpConnect.m in Sources */,
+				3AFA086D1971D825007410DD /* EEGPlotViewController.m in Sources */,
+				3A2E1CB8192DB1A30071E11B /* TIBLEAppDelegate.m in Sources */,
+				86ED79E41B5F579C007425FF /* Reachability.m in Sources */,
+				3A2E1CBA192DB1A30071E11B /* TIBLEViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFA08A019724F9D007410DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = 3AFA089F19724F9D007410DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A2E1CBB192DB1DA0071E11B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2E1CBC192DB1DA0071E11B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2E1CBD192DB1DA0071E11B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2E1CBE192DB1DA0071E11B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1A80591614559D0070D0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1A805A1614559D0070D0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1A805C1614559D0070D0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEGRecorder/EEGRecorder-Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/lp1/Documents/Developer/EEG_Recorder/Chilkat-9.5.2.0-IOS/cpp_include",
+					"/Users/lp1/Documents/Developer/EEG_Recorder/Chilkat-9.5.2.0-IOS/include",
+					"/Users/lp1/Documents/Developer/EEG_Recorder/CorePlot_1.5.1/Source/framework/**",
+				);
+				INFOPLIST_FILE = "EEGRecorder/en.lproj/EEGRecorder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chilkat-9.5.2.0-IOS/lib/armv7",
+					/Users/lp1/Documents/Developer/EEG_Recorder/CorePlot_1.5.1/Source/framework,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lpthread",
+					"-lresolv",
+				);
+				PRODUCT_NAME = EEGRecorder;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA1A805D1614559D0070D0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EEGRecorder/EEGRecorder-Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/lp1/Documents/Developer/EEG_Recorder/Chilkat-9.5.2.0-IOS/cpp_include",
+					"/Users/lp1/Documents/Developer/EEG_Recorder/Chilkat-9.5.2.0-IOS/include",
+					"/Users/lp1/Documents/Developer/EEG_Recorder/CorePlot_1.5.1/Source/framework/**",
+				);
+				INFOPLIST_FILE = "EEGRecorder/en.lproj/EEGRecorder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chilkat-9.5.2.0-IOS/lib/armv7",
+					/Users/lp1/Documents/Developer/EEG_Recorder/CorePlot_1.5.1/Source/framework,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lpthread",
+					"-lresolv",
+				);
+				PRODUCT_NAME = EEGRecorder;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1A80341614559D0070D0E9 /* Build configuration list for PBXProject "EEGRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1A80591614559D0070D0E9 /* Debug */,
+				FA1A805A1614559D0070D0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1A805B1614559D0070D0E9 /* Build configuration list for PBXNativeTarget "EEGRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1A805C1614559D0070D0E9 /* Debug */,
+				FA1A805D1614559D0070D0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1A80311614559D0070D0E9 /* Project object */;
+}
