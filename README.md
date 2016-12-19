@@ -1,4 +1,4 @@
-# EEG-Recorder
+# EEG Recorder
 
 I wrote this while at MGH in the summer of 2015. 
 
